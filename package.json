@@ -1,0 +1,32 @@
+{
+  "name": "slack-ai-agent",
+  "version": "1.0.0",
+  "description": "A Slack AI Agent that analyzes Slack members and sends insights to a specified Slack channel.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VirabhadraKhobare/vk-slack-ai-agent.git"
+  },
+  "author": "Virabhadra Khobare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VirabhadraKhobare/vk-slack-ai-agent/issues"
+  },
+  "homepage": "https://github.com/VirabhadraKhobare/vk-slack-ai-agent#readme",
+  "dependencies": {
+    "@langchain/core": "^1.2.6",
+    "@langchain/openai": "^1.5.7",
+    "@slack/bolt": "^5.0.0",
+    "@slack/web-api": "^8.0.0",
+    "axios": "^1.19.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+  }
+}
